@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Library</h1>
+        <div id="exit"><span>x</span></div>
+        <div class="addbook" id="addbook">
+            <form>
+                <label for="Title">Title: </label>
+                <input type="text" name="Title" id="Title"><br>
+                <label for="Author">Author: </label>
+                <input type="text" name="Author" id="Author"><br>
+                <label for="Pages">Pages: </label>
+                <input type="Number" name="Pages" id="Pages"><br>
+                <label for="reading">Have You Read it?</label>
+                <input type="checkbox" name="Reading" id="Reading">
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="books-container">
+            <div class="btn-container"><button><span>+</span><p>Add Book</p></button></div>
+            <!-- <div class="card">
+                <div class="card-info">
+                    <h1>Ikigai Twisted Love</h1>
+                    <p>by author</p>
+                    <p>256 Pages</p>
+                </div>
+                <div class="stats">Not readed</div>
+                <button>Remove</button>
+            </div>   -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
